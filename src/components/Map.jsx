@@ -11,6 +11,9 @@ import { db } from "../firebase";
 
 const placesLibrary = ["places"];
 
+/**
+ * Components - Map
+ */
 const Map = () => {
   const [places, setPlaces] = useState([]);
   const [center, setCenter] = useState();
@@ -27,6 +30,9 @@ const Map = () => {
     setCenter({ lat, lng });
   }
 
+  /**
+   * Add a marker on google map
+   */
   const addMarker = (event) => {
     const newPlace = {
       id: places.length,
@@ -41,6 +47,9 @@ const Map = () => {
     libraries: placesLibrary,
   });
 
+  /**
+   * Based on marker on google map enter the quest data in firebase (quests) collections
+   */
   const addQuest = async (place) => {
     const timestamp = Timestamp.now();
 
