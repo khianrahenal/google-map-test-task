@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/google-map-test-task/static/js/main.d1e465d1.js",
+    "static/js/787.5cfe1a01.chunk.js": "/google-map-test-task/static/js/787.5cfe1a01.chunk.js",
+    "index.html": "/google-map-test-task/index.html",
+    "main.d1e465d1.js.map": "/google-map-test-task/static/js/main.d1e465d1.js.map",
+    "787.5cfe1a01.chunk.js.map": "/google-map-test-task/static/js/787.5cfe1a01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d1e465d1.js"
+  ]
+}
