@@ -1,6 +1,7 @@
 {
   "name": "google-map-test-task",
   "version": "0.1.0",
+  "homepage": "http://khianrahenal.github.io/google-map-test-task",
   "private": true,
   "dependencies": {
     "@react-google-maps/api": "^2.19.2",
